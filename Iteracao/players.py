@@ -9,3 +9,7 @@ print(players[2:])
 #Exibindo os 3 últimos jogadores
 print(players[-3:])
 print(players[:-3])
+
+print("Here are the first three players on my team:")
+for player in players[:3]:
+    print(player.title())
